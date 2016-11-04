@@ -1,0 +1,4 @@
+﻿  GraphDijkstra.cpp
+c:\pat\dev\github\algorithms\cpp\graphdijkstra.cpp(39): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  Algorithms.vcxproj -> C:\PAT\Dev\Github\Algorithms\CPP\x64\Debug\Algorithms.exe
+  Algorithms.vcxproj -> C:\PAT\Dev\Github\Algorithms\CPP\x64\Debug\Algorithms.pdb (Full PDB)
