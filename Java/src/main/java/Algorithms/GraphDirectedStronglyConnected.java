@@ -4,6 +4,20 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GraphDirectedStronglyConnected {
+	
+	private static ArrayList<Integer>[] reverseGraph(ArrayList<Integer>[] adj) {
+		int n = adj.length;
+		ArrayList<Integer>[] revGraph = (ArrayList<Integer>[])new ArrayList[n];
+		for (int i = 0; i < n; i++) {
+			revGraph[i] = new ArrayList<Integer>();
+		}
+		for (int i = 0; i < n; i++) {
+			for (int j : adj[i]) {
+				revGraph[j].add(i);
+			}
+		}
+		return revGraph;
+	}
 
 	private static int numberOfStronglyConnectedComponents(ArrayList<Integer>[] adj) {
         //write your code here
