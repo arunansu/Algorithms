@@ -47,7 +47,7 @@ int acyclic(vector<vector<int>> &adj) {
 int main() {
 	size_t n, m;
 	std::cin >> n >> m;
-	vector<vector<int> > adj(n, vector<int>());
+	vector<vector<int>> adj(n, vector<int>());
 	for (size_t i = 0; i < m; i++) {
 		int x, y;
 		std::cin >> x >> y;
