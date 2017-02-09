@@ -5,8 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>50691b30-3636-4196-a1ed-88ee13b8c7e4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>NeuralNetwork.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -57,6 +56,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GraphUndirectedComponents.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LinearRegression.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NeuralNetwork.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
